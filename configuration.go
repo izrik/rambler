@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
+	"dario.cat/mergo"
 	"github.com/client9/xson/hjson"
-	"github.com/imdario/mergo"
 )
 
 // Configuration is the configuration type
