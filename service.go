@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 
 	"github.com/bradfitz/slice"
-	"github.com/elwinar/rambler/driver"
-	_ "github.com/elwinar/rambler/driver/mysql"
-	_ "github.com/elwinar/rambler/driver/postgresql"
-	_ "github.com/elwinar/rambler/driver/sqlite"
+	"github.com/izrik/rambler/driver"
+	_ "github.com/izrik/rambler/driver/mysql"
+	_ "github.com/izrik/rambler/driver/postgresql"
+	_ "github.com/izrik/rambler/driver/sqlite"
 )
 
 var (

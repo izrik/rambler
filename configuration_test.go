@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/elwinar/rambler/driver"
 	"github.com/google/go-cmp/cmp"
+	"github.com/izrik/rambler/driver"
 )
 
 func TestLoad(t *testing.T) {
